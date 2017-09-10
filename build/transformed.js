@@ -9745,13 +9745,23 @@ module.exports = getHostComponentFromComposite;
 
 /***/ }),
 /* 82 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-var React = __webpack_require__(49);
-var ReactDOM = __webpack_require__(98);
-var App = __webpack_require__(184);
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom__ = __webpack_require__(98);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_dom__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_App__ = __webpack_require__(184);
 
-ReactDOM.render(React.createElement(App, null), document.getElementById('app'));
+
+
+
+
+const root = document.getElementById("app");
+
+__WEBPACK_IMPORTED_MODULE_1_react_dom___default.a.render(__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_App__["a" /* default */], null));
 
 /***/ }),
 /* 83 */
@@ -22384,20 +22394,21 @@ module.exports = ReactDOMInvalidARIAHook;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-var React = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 
-class App extends React.Component {
-   render() {
-      return React.createElement(
-         'div',
-         null,
-         'Hello World!!!'
-      );
-   }
+
+class App extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
+	render() {
+		return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+			'h1',
+			null,
+			'This is a react starter with hot reload!'
+		);
+	}
 }
 
-/* harmony default export */ __webpack_exports__["default"] = (App);
+/* harmony default export */ __webpack_exports__["a"] = (App);
 
 /***/ })
 /******/ ]);

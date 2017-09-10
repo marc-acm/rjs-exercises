@@ -1,13 +1,10 @@
-var React = require('react');
+import React from 'react'
 
 class App extends React.Component {
-   render() {
-      return (
-         <div>
-            Hello World!
-         </div>
-      );
-   }
+	render() {
+		return <h1>This is a react starter with hot reload!</h1>
+
+	}
 }
 
-export default App;
+export default App
